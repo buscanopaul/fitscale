@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import Heading from "../Heading";
 import Link from "next/link";
 import {
   ExclamationTriangleIcon,
