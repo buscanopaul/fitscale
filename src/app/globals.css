@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.shadow-white {
+  text-shadow: white 1px 0 10px;
+}
+
+.shadow-green {
+  text-shadow: #72d12a 1px 0 3px;
+}
