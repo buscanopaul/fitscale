@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "title": "Kaio Final Destination",
+    "rating": 5,
+    "image": "https://res.cloudinary.com/dod9nbjke/image/upload/v1691949825/Klout/Product%20Images/KAIO-PsychoSerum-Front-Plain-min_efdscx.png",
+    "advantages": [
+      {
+        "id": "1",
+        "title": "Insane power"
+      },
+      {
+        "id": "2",
+        "title": "Elevated Focus"
+      },
+      {
+        "id": "3",
+        "title": "Intense Pumps"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Kaio pump & performance",
+    "rating": 5,
+    "image": "https://res.cloudinary.com/dod9nbjke/image/upload/v1691949825/Klout/Product%20Images/KAIO-PsychoSerum-Front-Plain-min_efdscx.png",
+    "advantages": [
+      {
+        "id": "1",
+        "title": "Max Endurance"
+      },
+      {
+        "id": "2",
+        "title": "Hyper Hydration"
+      },
+      {
+        "id": "3",
+        "title": "Intense Pumps"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Kaio Final Destination",
+    "rating": 5,
+    "image": "https://res.cloudinary.com/dod9nbjke/image/upload/v1691949825/Klout/Product%20Images/KAIO-PsychoSerum-Front-Plain-min_efdscx.png",
+    "advantages": [
+      {
+        "id": "1",
+        "title": "Crazy Energy"
+      },
+      {
+        "id": "2",
+        "title": "Detailed Focus"
+      },
+      {
+        "id": "3",
+        "title": "Unrivaled Drive"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Kaio Final Destination",
+    "rating": 5,
+    "image": "https://res.cloudinary.com/dod9nbjke/image/upload/v1691949825/Klout/Product%20Images/KAIO-PsychoSerum-Front-Plain-min_efdscx.png",
+    "advantages": [
+      {
+        "id": "1",
+        "title": "Low-Caffeine"
+      },
+      {
+        "id": "2",
+        "title": "Crash-Free"
+      },
+      {
+        "id": "3",
+        "title": "Unreal Pumps"
+      }
+    ]
+  }
+]

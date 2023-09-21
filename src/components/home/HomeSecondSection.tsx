@@ -13,8 +13,8 @@ import Description from "../Description";
 
 function HomeSecondSection() {
   return (
-    <div className="relative lg:h-[800px] h-screen w-full lg:border-b-4 rounded-lg">
-      <div className="absolute -top-60 lg:-top-24 lg:right-10">
+    <div className="relative h-screen w-full lg:border-b-4 rounded-lg">
+      {/* <div className="absolute -top-60 lg:-top-24 lg:right-10 h-screen">
         <div className="lg:hidden px-6">
           <Button>Claim my free pump kaps now!</Button>
           <div className="mt-5 flex justify-center">
@@ -48,7 +48,7 @@ function HomeSecondSection() {
             <HomeBenefits />
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="relative h-screen w-full -z-10 lg:absolute">
         <Image
           className="lg:hidden -z-10"
