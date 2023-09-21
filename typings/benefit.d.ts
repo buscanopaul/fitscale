@@ -3,4 +3,5 @@ type Benefit = {
   title: string;
   rating: number;
   description: string;
+  perks: string;
 };

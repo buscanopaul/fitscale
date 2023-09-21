@@ -3,18 +3,21 @@
     "id": "1",
     "title": "Pump Levels",
     "rating": 8,
-    "description": "Fuel your muscles with the might of VasoDrive™ and NO3-T Nitrates. As Pump Kaps work their magic, feel each rep gradually increase muscle fullness until you achieve the most skin-tearing pump of your life."
+    "description": "Fuel your muscles with the might of VasoDrive™ and NO3-T Nitrates. As Pump Kaps work their magic, feel each rep gradually increase muscle fullness until you achieve the most skin-tearing pump of your life.",
+    "perks": "VasoDrive™ Power"
   },
   {
     "id": "2",
     "title": "Blood flow",
     "rating": 8,
-    "description": "Backed by the strength of AmentoPump, as you shatter your limits, enhanced blood flow allows for more pronounced veins, ensuring peak performance and an unparalleled physique."
+    "description": "Backed by the strength of AmentoPump, as you shatter your limits, enhanced blood flow allows for more pronounced veins, ensuring peak performance and an unparalleled physique.",
+    "perks": "Peak Performance"
   },
   {
     "id": "3",
     "title": "Strength levels",
     "rating": 7,
-    "description": "Unlock next-level strength and stamina powered by VasoDrive and AmentoPump. With Pump Kaps, every set and rep is supercharged, letting you lift heavier and persevere longer in even the most demanding sessions."
+    "description": "Unlock next-level strength and stamina powered by VasoDrive and AmentoPump. With Pump Kaps, every set and rep is supercharged, letting you lift heavier and persevere longer in even the most demanding sessions.",
+    "perks": "Supercharged Sets"
   }
 ]

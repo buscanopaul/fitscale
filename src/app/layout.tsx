@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import "./globals.css";
-import { Montserrat } from "next/font/google";
+import { Archivo, Montserrat } from "next/font/google";
 import localFont from "next/font/local";
 
 const montserrat = Montserrat({
@@ -11,6 +11,11 @@ const montserrat = Montserrat({
 const helvetica = localFont({
   src: "../../public/fonts/Helvetica_Neue_LT_Std_Black_Condensed_Oblique.otf",
   variable: "--font-helvetica",
+});
+
+const archivo = Archivo({
+  subsets: ["latin"],
+  variable: "--font-archivo",
 });
 
 export const metadata = {
@@ -25,7 +30,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} ${helvetica.variable} bg-black`}>
+      <body
+        className={`${montserrat.variable} ${helvetica.variable} ${archivo.variable} bg-black`}
+      >
         <Header />
         {children}
       </body>

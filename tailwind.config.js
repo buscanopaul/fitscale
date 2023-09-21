@@ -18,6 +18,7 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-montserrat)"],
         serif: ["var(--font-helvetica)"],
+        archivo: ["var(--font-archivo)"],
       },
     },
   },
