@@ -15,10 +15,10 @@ function HomeBenefits() {
             Out of this would pumps...
           </Title>
           <Description>
-            Meet KLOUT's Pump Kaps; formulated with cutting-edge ingredients,
-            they promise skin-splitting pumps that make every muscle and vein
-            stand out. With Pump Kaps, elevate both your performance and
-            appearance to champion levels.
+            Meet KLOUT&apos;s Pump Kaps; formulated with cutting-edge
+            ingredients, they promise skin-splitting pumps that make every
+            muscle and vein stand out. With Pump Kaps, elevate both your
+            performance and appearance to champion levels.
           </Description>
         </div>
         <div className="flex flex-col gap-5 lg:flex-row">
