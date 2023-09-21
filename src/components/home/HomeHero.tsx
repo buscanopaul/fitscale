@@ -26,13 +26,13 @@ function HomeHero() {
           alt="background_klout"
         />
       </div>
-      <div className="flex items-center justify-center gap-1 mb-4 absolute -top-10 lg:-top-16 left-1/2 transform -translate-x-1/2 z-10 w-full">
+      <div className="flex items-center justify-center gap-1 mb-4 absolute -top-10 lg:-top-16 left-1/2 transform -translate-x-1/2 z-10">
         <ExclamationTriangleIcon className="h-3 w-3 text-primary lg:w-5 lg:h-5" />
         <h4 className="text-primary font-sans uppercase font-bold shadow-green text-xs lg:text-lg">
           Limited Time Offer!
         </h4>
       </div>
-      <div className="relative flex flex-col items-center mb-10">
+      <div className="relative flex flex-col items-center mb-12">
         <h1 className="shadow-white text-white font-serif text-3xl lg:text-5xl lg:mb-2 uppercase">
           Get <u>Free</u> Pump Kaps
         </h1>
