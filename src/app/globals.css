@@ -6,6 +6,14 @@
   text-shadow: white 1px 0 10px;
 }
 
+.shadow-white-light {
+  text-shadow: white 1px 0 3px;
+}
+
 .shadow-green {
   text-shadow: #72d12a 1px 0 3px;
+}
+
+.box-shadow-white {
+  box-shadow: 0 0 6px white;
 }

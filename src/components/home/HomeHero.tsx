@@ -5,32 +5,30 @@ import {
   ExclamationTriangleIcon,
   ArrowRightCircleIcon,
 } from "@heroicons/react/24/solid";
+import Button from "../Button";
+import Offer from "../Offer";
+import Title from "../Title";
 
 function HomeHero() {
   return (
-    <div className="max-w-screen-2xl mx-auto px-6">
-      <div className="lg:hidden">
-        <Image
-          src={`${process.env.CLOUDINARY_URL}/v1691874657/Klout/Banner%20Images/KloutHero-BG1_ywuykx.jpg`}
-          layout="fill"
-          objectFit="cover"
-          objectPosition="top"
-          alt="background_klout"
-        />
-      </div>
-      <div className="md:block hidden">
-        <Image
-          src={`${process.env.CLOUDINARY_URL}/v1692070790/Klout/Banner%20Images/FinalDesktop_gzxmer.jpg`}
-          layout="fill"
-          objectFit="cover"
-          alt="background_klout"
-        />
-      </div>
-      <div className="flex items-center justify-center gap-1 mb-4 absolute -top-10 lg:-top-16 left-1/2 transform -translate-x-1/2 z-10">
-        <ExclamationTriangleIcon className="h-3 w-3 text-primary lg:w-5 lg:h-5" />
-        <h4 className="text-primary font-sans uppercase font-bold shadow-green text-xs lg:text-lg">
-          Limited Time Offer!
-        </h4>
+    <div className="px-6 relative h-screen">
+      <Image
+        className="lg:hidden w-full"
+        src={`${process.env.CLOUDINARY_URL}/v1691874657/Klout/Banner%20Images/KloutHero-BG1_ywuykx.jpg`}
+        layout="fill"
+        objectFit="cover"
+        objectPosition="top"
+        alt="background_klout"
+      />
+      <Image
+        className="md:block hidden"
+        src={`${process.env.CLOUDINARY_URL}/v1692070790/Klout/Banner%20Images/FinalDesktop_gzxmer.jpg`}
+        layout="fill"
+        objectFit="cover"
+        alt="background_klout"
+      />
+      <div className="mb-4 absolute -top-10 lg:-top-16 left-1/2 transform -translate-x-1/2 z-10">
+        <Offer>Limited Time Offer!</Offer>
       </div>
       <div className="relative flex flex-col items-center mb-12">
         <h1 className="shadow-white text-white font-serif text-3xl lg:text-5xl lg:mb-2 uppercase">
@@ -61,15 +59,14 @@ function HomeHero() {
           </h3>
         </div>
       </div>
-      <div className="block md:hidden">
-        <Image
-          src={`${process.env.CLOUDINARY_URL}/v1691874658/Klout/Banner%20Images/KloutBannerProducts_lyu7zq.png`}
-          layout="fill"
-          objectFit="cover"
-          objectPosition="top"
-          alt="background_klout"
-        />
-      </div>
+      <Image
+        className="block md:hidden"
+        src={`${process.env.CLOUDINARY_URL}/v1691874658/Klout/Banner%20Images/KloutBannerProducts_lyu7zq.png`}
+        layout="fill"
+        objectFit="cover"
+        objectPosition="top"
+        alt="background_klout"
+      />
     </div>
   );
 }
