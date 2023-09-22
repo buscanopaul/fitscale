@@ -11,7 +11,11 @@ function HomeBenefits() {
     <div className="relative border-y-4 lg:border-none rounded-lg py-10 lg:w-[65%] px-6 mt-5">
       <div>
         <div className="lg:hidden mb-10">
-          <Title mobileSize="text-[27px]" desktopSize="lg:text-[40px]">
+          <Title
+            mobileSize="text-[27px]"
+            desktopSize="lg:text-[40px]"
+            isHaveShadow
+          >
             Out of this would pumps...
           </Title>
           <Description>

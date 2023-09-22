@@ -8,7 +8,7 @@ import Button from "../Button";
 function HomeThirdSection() {
   return (
     <div className="relative h-full px-6 py-12 lg:border-b-2 rounded-lg">
-      <Title mobileSize="text-[25px]" desktopSize="lg:text-[40px]">
+      <Title mobileSize="text-[25px]" desktopSize="lg:text-[40px]" isHaveShadow>
         stack your kaps with one of our <u>industry-leading</u> pres
       </Title>
       <div className="mb-3" />

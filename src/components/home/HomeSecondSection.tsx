@@ -21,7 +21,11 @@ function HomeSecondSection() {
             <Offer>This offer ends soon!</Offer>
           </div>
         </div>
-        <Title mobileSize="text-[23px]" desktopSize="lg:text-[40px]">
+        <Title
+          mobileSize="text-[23px]"
+          desktopSize="lg:text-[40px]"
+          isHaveShadow
+        >
           Try the king of kaps <u>For Free</u>
         </Title>
         <Description isTextRight>

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "title": "Proudly made in the USA",
+    "icon": "flag"
+  },
+  {
+    "id": "2",
+    "title": "High Quality Ingredients",
+    "icon": "check"
+  },
+  {
+    "id": "3",
+    "title": "Full Transparency Labels",
+    "icon": "beaker"
+  },
+  {
+    "id": "4",
+    "title": "Science-backed Ingredients",
+    "icon": "search"
+  }
+]
