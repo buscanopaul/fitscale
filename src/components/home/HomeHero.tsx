@@ -48,7 +48,7 @@ function HomeHero() {
       </div>
       <div className="max-w-screen-lg mx-auto">
         <div className="relative">
-          <h3 className="text-white font-serif text-base lg:text-2xl uppercase max-w-[190px] lg:max-w-[300px] pt-3">
+          <h3 className="text-white font-serif text-base lg:text-2xl uppercase max-w-[190px] lg:max-w-[300px] lg:pt-20 pt-10">
             Pump Kaps Retail Price: <s className="text-gray-400">$35.99</s>{" "}
             <u>free!</u>
           </h3>
