@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import Button from "../Button";
 import Link from "next/link";
+import Description from "../Description";
 
 type HomeProductsCardProps = {
   data: Product;
@@ -10,17 +11,34 @@ type HomeProductsCardProps = {
 
 function HomeProductsCard({ data }: HomeProductsCardProps) {
   return (
-    <div className="relative border-2 flex flex-col items-center py-6 px-5 bg-black">
-      <Image src={data.image} width={107} height={134} alt={data.title} />
-      <h5 className="font-sans font-bold text-xs uppercase max-w-[100px] text-center py-2">
+    <div className="relative border-2 flex flex-col items-center justify-between py-6 px-5 bg-black">
+      <div className="block lg:hidden">
+        <Image src={data.image} width={107} height={134} alt={data.title} />
+      </div>
+      <div className="lg:block hidden">
+        <Image src={data.image} width={208} height={260} alt={data.title} />
+      </div>
+      <h5 className="font-sans font-extrabold text-xs lg:text-2xl uppercase max-w-[100px] lg:max-w-full shadow-white text-center py-2">
         {data.title}
       </h5>
       <div className="flex items-center mb-4">
         {Array.from({ length: data.rating }).map((_, index) => (
-          <StarIcon className="h-3 w-3 text-white" key={index} />
+          <StarIcon className="h-3 w-3 lg:w-5 lg:h-5 text-white" key={index} />
         ))}
       </div>
-      <div className="flex flex-col gap-2">
+      <div className="hidden lg:block">
+        <Description>{data.description}</Description>
+      </div>
+      <div className="hidden lg:flex self-start mt-8 gap-1">
+        <h5 className="font-sans text-white underline font-extrabold text-base">
+          ${data.price.toFixed(2)}
+        </h5>
+        <p className="text-gray-400">~</p>
+        <h5 className="font-sans text-base font-semibold text-gray-400">
+          25 SERV.
+        </h5>
+      </div>
+      <div className="flex flex-col gap-2 lg:hidden">
         {data.advantages.map((advantage) => (
           <div
             key={advantage.id}
@@ -109,8 +127,11 @@ function HomeProductsCard({ data }: HomeProductsCardProps) {
         ))}
       </div>
       <Link href={"/"} className="w-full mt-6 text-center">
-        <p className="bg-primary border font-sans uppercase font-bold shadow-white text-xs py-2">
+        <p className="bg-primary border font-sans uppercase font-bold shadow-white text-xs py-2 lg:hidden">
           More Info
+        </p>
+        <p className="bg-primary border font-sans uppercase font-bold shadow-white text-base py-3 rounded-sm lg:block hidden">
+          View Product Details
         </p>
       </Link>
     </div>

@@ -7,16 +7,18 @@ import Button from "../Button";
 
 function HomeThirdSection() {
   return (
-    <div className="relative h-full px-6 pt-10">
+    <div className="relative h-full px-6 py-12 lg:border-b-2 rounded-lg">
       <Title mobileSize="text-[25px]" desktopSize="lg:text-[40px]">
         stack your kaps with one of our <u>industry-leading</u> pres
       </Title>
       <div className="mb-3" />
-      <Description>
-        Experience unmatched energy with one of our elite pre-workout products.
-        To ensure you&apos;re fully equipped, we&apos;re gifting you the kaps as
-        a special bonus to add to the stack.
-      </Description>
+      <div className="max-w-[600px]">
+        <Description>
+          Experience unmatched energy with one of our elite pre-workout
+          products. To ensure you&apos;re fully equipped, we&apos;re gifting you
+          the kaps as a special bonus to add to the stack.
+        </Description>
+      </div>
       <div className="h-[600px] lg:h-full" />
       <HomeProducts />
       <div className="lg:hidden mt-10">

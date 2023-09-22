@@ -3,6 +3,8 @@
     "id": "1",
     "title": "Kaio Final Destination",
     "rating": 5,
+    "description": "KAIO, the apex pre-workout, boasts eight trademarked ingredients including NO3-T Nitrate, delivering unmatched energy, focus, and intense pumps for transformative workouts.",
+    "price": 57.0,
     "image": "https://res.cloudinary.com/dod9nbjke/image/upload/v1691949825/Klout/Product%20Images/KAIO-PsychoSerum-Front-Plain-min_efdscx.png",
     "advantages": [
       {
@@ -23,6 +25,8 @@
     "id": "2",
     "title": "Kaio pump & performance",
     "rating": 5,
+    "description": "KAIO Pump & Performance is a 3-in-1 powerhouse, blending optimal pumps, extended endurance, and premium hydration for peak training sessions.",
+    "price": 57.0,
     "image": "https://res.cloudinary.com/dod9nbjke/image/upload/v1691949825/Klout/Product%20Images/KAIO-PsychoSerum-Front-Plain-min_efdscx.png",
     "advantages": [
       {
@@ -43,6 +47,8 @@
     "id": "3",
     "title": "Kaio Final Destination",
     "rating": 5,
+    "description": "Mamba delivers unparalleled high-stim energy, a premium NO3-T Nitrate pump, and intense focus with five trademarked ingredients, ensuring a unique flavor-packed experience.",
+    "price": 47.0,
     "image": "https://res.cloudinary.com/dod9nbjke/image/upload/v1691949825/Klout/Product%20Images/KAIO-PsychoSerum-Front-Plain-min_efdscx.png",
     "advantages": [
       {
@@ -63,6 +69,8 @@
     "id": "4",
     "title": "Kaio Final Destination",
     "rating": 5,
+    "description": "Karma offers a low-stim, nootropic-rich blend with smooth energy, making it ideal for those seeking profound focus without excessive stimulants.",
+    "price": 47.0,
     "image": "https://res.cloudinary.com/dod9nbjke/image/upload/v1691949825/Klout/Product%20Images/KAIO-PsychoSerum-Front-Plain-min_efdscx.png",
     "advantages": [
       {
