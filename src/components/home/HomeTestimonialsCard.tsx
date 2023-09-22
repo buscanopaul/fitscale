@@ -36,7 +36,7 @@ function HomeTestimonialsCard({ data }: HomeTestimonialsCardProps) {
           <Description>{data.description}</Description>
         </div>
       </div>
-      <div className="items-center gap-1 hidden md:flex">
+      <div className="items-center gap-1 hidden md:flex mt-10">
         <CheckBadgeIcon className="h-4 w-4 text-white" />
         <p className="text-white font-sans text-xs">{data.author} | USA</p>
       </div>
