@@ -39,7 +39,7 @@ function Footer() {
           />
         </div>
       </div>
-      <p className="font-archivo text-white text-base text-center py-10">
+      <p className="font-archivo text-white text-base text-center py-10 uppercase">
         &copy; 2023, Klout PWR
       </p>
       <Link
