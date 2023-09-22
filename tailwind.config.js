@@ -14,6 +14,7 @@ module.exports = {
       },
       colors: {
         primary: "#72D12A",
+        footer: "#3A3A3A",
       },
       fontFamily: {
         sans: ["var(--font-montserrat)"],

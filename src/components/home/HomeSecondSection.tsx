@@ -47,7 +47,9 @@ function HomeSecondSection() {
       <div className="lg:hidden block mb-10 px-6">
         <Button>Claim my free pump kaps now!</Button>
       </div>
+      <div className="h-20" />
       <HomeBenefits />
+      <div className="h-20" />
       <Image
         className="lg:hidden absolute -z-10"
         src={`${process.env.CLOUDINARY_URL}/v1691874657/Klout/Banner%20Images/KloutHero-BG2_pp3nvj.jpg`}
