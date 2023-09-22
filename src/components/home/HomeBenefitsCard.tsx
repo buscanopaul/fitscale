@@ -9,7 +9,7 @@ type HomeBenefitsCardProps = {
 
 function HomeBenefitsCard({ data }: HomeBenefitsCardProps) {
   return (
-    <div className="p-6 border flex flex-col items-center justify-between">
+    <div className="p-6 border flex flex-col items-center justify-between bg-black">
       <h5 className="text-white font-sans uppercase font-bold text-lg mb-2">
         {data.title}
       </h5>

@@ -8,7 +8,7 @@ import Button from "../Button";
 
 function HomeBenefits() {
   return (
-    <div className="relative px-6 border-y-4 lg:border-none rounded-lg py-10 lg:w-[65%]">
+    <div className="relative border-y-4 lg:border-none rounded-lg py-10 lg:w-[65%] px-6 mt-5">
       <div>
         <div className="lg:hidden mb-10">
           <Title mobileSize="text-[27px]" desktopSize="lg:text-[40px]">
@@ -26,7 +26,7 @@ function HomeBenefits() {
             <HomeBenefitsCard data={benefit} key={benefit.id} />
           ))}
         </div>
-        <div className="lg:block hidden mt-10">
+        <div className="mt-10">
           <Button>Claim my free pump kaps now!</Button>
         </div>
       </div>
