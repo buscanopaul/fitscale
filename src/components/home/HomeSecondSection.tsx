@@ -47,7 +47,7 @@ function HomeSecondSection() {
       <div className="lg:hidden block mb-10 px-6">
         <Button>Claim my free pump kaps now!</Button>
       </div>
-      <div className="h-20" />
+      <div className="h-5" />
       <HomeBenefits />
       <div className="h-20" />
       <Image
